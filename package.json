@@ -1,0 +1,28 @@
+{
+  "name": "vitepress-nav",
+  "version": "1.0.0",
+  "description": "基于 VitePress 打造个人前端导航网站",
+  "private": true,
+  "scripts": {
+    "dev": "vitepress dev docs --port=8732",
+    "build": "vitepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LittleTangJF/vitepress-blog.git"
+  },
+  "author": "jiafu1997",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LittleTangJF/vitepress-blog/issues"
+  },
+  "homepage": "https://github.com/LittleTangJF/vitepress-blog#readme",
+  "devDependencies": {
+    "@femm/prettier": "^1.0.1",
+    "@mdit-vue/shared": "^0.12.0",
+    "sass": "^1.58.3",
+    "vitepress": "1.0.0-alpha.64",
+    "vue": "^3.2.47"
+  },
+  "prettier": "@femm/prettier"
+}
